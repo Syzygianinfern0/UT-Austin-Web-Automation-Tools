@@ -8,9 +8,10 @@ local folder and then using that to login to the website in further attempts.
 
 1. Install selenium and chromedriver.
 2. Rename [`sample_config.json`](/sample_config.json) to `config.json` and fill in the details.
-3. Then you need to run the `generate_dump.py` file. This will open a Chrome window and ask you to login to the website
-   and authenticate yourself. Make sure you select the "remember this browser" option in the window. (you can also
-   use [`manual_setup.py`](/manual_setup.py) to do the same thing, but you gotta write the loading script yourself)
+3. Then you need to run the [`generate_dump.py`](/generate_dump.py) file. This will open a Chrome window and ask you to
+   login to the website and authenticate yourself. Make sure you select the "remember this browser" option in the
+   window. (you can also use [`manual_setup.py`](/manual_setup.py) to do the same thing, but you gotta write the loading
+   script yourself)
 
 ## Scripts
 
