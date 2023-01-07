@@ -1,8 +1,8 @@
-# UT-2FA-Web-Automation
+# UT-Austin-Web-Automation-Tools
 
-It is not directly possible to perform any webscraping/automation on UT Direct websites since there is a Duo 2FA login
-system. This is a workaround to automate the login process. This is done by just saving chrome local storage and cookies
-to a local folder and then using that to login to the website in further attempts.
+It is NOT trivial to perform any webscraping/automation on UT Direct websites since there is a Duo 2FA login system.
+This is a workaround to automate the login process. This is done by just saving chrome local storage and cookies to a
+local folder and then using that to login to the website in further attempts.
 
 ## Setup
 
@@ -16,7 +16,7 @@ to a local folder and then using that to login to the website in further attempt
 
 This repo houses a neat little collection of scripts to perform various tasks. Currently implements
 
-### [`Waitlist Checker`](/check_course_availabilty.py)
+### [`Waitlist Checker`](/check_course_availability.py)
 
 Checking if course has been moved from waitlist to open. This is important if you cannot add yourself to the waitlist
 since there is another class with a clashing timeslot (am I wrong to think so?).
